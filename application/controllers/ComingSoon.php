@@ -18,19 +18,32 @@ class ComingSoon extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-    
-    function __construct(){
-        parent::__construct();
-	   $this->load->helper('url');
-    }
+    function __construct()
+	{
+		parent::__construct();
+		$this->load->helper('url');
+		$this->data['s_page_header'] = 'home';
+		$this->data['s_page_type'] = 'home';
+
+		$this->data['a_js_scripts'] = array(
+				base_url()  . 'assets/js/custom/home.js'
+			);
+
+		$this->data['a_css_sheets'] = array(
+				base_url() . 'assets/css/home/index.css'
+			);
+
+	}
     
 	public function index()
 	{
-		$this->load->view('Home/comingSoon');
+		$this->data['s_main_content'] = 'Home/comingSoon';
+		$this->load->view('includes/template', $this->data);
 	}
     
     public function starterKit()
     {
-        $this->load->view('Home/starterKit');    
+    	$this->data['s_main_content'] = 'Home/starterKit';
+		$this->load->view('includes/template', $this->data);
     }
 }

@@ -1,51 +1,10 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>IdeaLab</title>
-        
-        <!-- Import materialize.css -->
-        <link type="text/css" rel="stylesheet" href="assets/css/materialize/css/materialize.css" media="screen, projection"/>
-        
-        <!-- Let browser know website is optimized for mobile -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
-        <style>
-            .outer {
-                height: 100vh;
-                text-align: center;
-            }
-            
-            .outer:before{
-                content:"";
-                display:inline-block;
-                height:100%;
-                vertical-align:middle;
-            }
-            
-            .inner {
-                width: 66%;
-                display:inline-block;
-                vertical-align:middle;
-            }
-            
-            .hidden {
-                display: none;   
-            }
-        </style>
-        
-    </head>
-    <body>
-        <main>
             <div class="container"> 
                 <div class="row">
                     <div class="col s12">
                         <div id="coming-soon-head" class="row center-align hidden" style="display:none; padding-top:5%">
                             <img id="coming-soon-head-logo" src="assets/img/logo.png" height="300" width="300" class="responsive-img">
-                            <h1 id="coming-soon-head-title"><span style="color:#92d050">Idea</span><span style="color:#ffc000">Lab</span></h1>
+                            <h1 id="coming-soon-head-title"><span class="idea-word">Idea</span><span class="lab-word">Lab</span></h1>
                             <p id="coming-soon-head-tagline" class="flow-text">Transforming vision into action</p>
                         </div>
                         <div id="coming-soon-body" class="row hidden">
@@ -61,13 +20,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div id="starterKit_1">
                             <div class="col s12 m9 l10">
                                 <div id="whyIdeaLab" class="row scrollspy">
-                                    <h3>Why <span style="color:#92d050">Idea</span><span style="color:#ffc000">Lab</span></h3>
+                                    <h3>Why <span class="idea-word">Idea</span><span class="lab-word">Lab</span></h3>
                                     <p class="flow-text">IdeaLab was borne out from a collective narrative of different stories that fell into place: long night talks of reform by quiet members of a student political party, the underground movement of independent students who are fed up of being gagged by the present system in USC, and just now, the cry for a Colorless SSC. People from different walks of life converging together towards a single advocacy—change. </p>
                                     <p class="flow-text">It is now apparent that people are hungry for change. Marc Ong’s election was not by accident: for the first time in more than ten years since SPP was established, Carolinians have elected a majority president. And for more than ten years, voter turnout has surpassed the 40 per cent threshold. However, the challenge that we face today is how to move change from being a noun to a verb. To paraphrase Joel Barker, the vision must turn into action in order to change the world; otherwise, a vision without action is just a dream. </p>
                                     <p class="flow-text">The vision in IdeaLab is simple: to provide a hub for Carolinians to incubate real and passion-filled advocacies so that we can contribute in producing servant leaders who put service above politics, service above positions, and service above recognitions. We want you to feel comfortable with the idea that you can make a difference without having to earn a position. All you need is an idea and a group of people to help you enable that idea into reality.</p>
                                 </div>
                                 <div id="howIdeaLabWorks" class="row scrollspy">
-                                    <h3>How does <span style="color:#92d050">Idea</span><span style="color:#ffc000">Lab</span> work?</h3>
+                                    <h3>How does <span class="idea-word">Idea</span><span class="lab-word">Lab</span> work?</h3>
                                     <p class="flow-text">IdeaLab serves an incubator for student-led initiatives and advocacies. Implementing a project or starting an advocacy campaign requires the right idea with the right attitude.</p>
                                 </div>
                                 <div id="ideationProgram" class="scrollspy">
@@ -113,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div id="starterKit_2" class="hidden">
                             <div class="col s12 m9 l10">
                                 <div id="whatIdeaLabExpects" class="row scrollspy">
-                                    <h3>What do we expect from our <span style="color:#92d050">Idea</span><span style="color:#ffc000">Lab</span> fellows?</h3>
+                                    <h3>What do we expect from our <span class="idea-word">Idea</span><span class="lab-word">Lab</span> fellows?</h3>
                                     <p class="flow-text">Upon their graduation from the IdeaLab program, we hope to populate the Carolinian community with Carolinians with an authentic Warrior Spirit. We hope to fill student organizations, Student Councils, and political parties with open-minded servant leaders who put service above politics, service above positions, and service above recognitions. 
                 You being here right now is not an accident. You have responded to the call for change. Now, it is time to change what you are called to do!</p>
                                 </div>
@@ -181,16 +140,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-        </main>
         <footer class="page-footer hidden">
             <div class="footer-copyright"></div>
         </footer>
-    
-
-        <!-- Import jquery and materialize.js -->
-        <script type="text/javascript" src="assets/js/jquery-2.1.4.js"></script>
-        <script type="text/javascript" src="assets/js/materialize/js/materialize.js"></script>
-        <script type="text/javascript" src="assets/js/custom/home.js"></script>
-    </body>
-</html>
 

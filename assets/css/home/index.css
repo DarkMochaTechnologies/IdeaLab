@@ -1,0 +1,13 @@
+body {
+	overflow: auto;
+}
+
+.idea-word {
+	content: "Idea";
+	color:#92d050;
+}
+
+.lab-word {
+	content: "Lab";
+	color:#ffc000;
+}

@@ -3,7 +3,7 @@
 
     @font-face {
     font-family: 'Boulder';
-    src: url('assets/fonts/boulder.ttf');
+    src: url('/assets/fonts/boulder.ttf');
 }   }
 
     html {

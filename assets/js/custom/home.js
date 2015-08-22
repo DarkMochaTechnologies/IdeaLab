@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    $("#load_test").click(function(){
+        $("#comingSoon_body").load("http://localhost:8080/IdeaLab/application/views/SoftwareFreedomDay/index.php");
+    });
+    
     $("#coming-soon-head").fadeIn(1000,function(){
         $("#coming-soon-body").delay(500).fadeIn(1000);
         $(".page-footer").delay(500).fadeIn(1000);
@@ -46,12 +50,11 @@ $(document).ready(function(){
                 $(this).removeClass("active");
             });
             
-            
             $(kitY).fadeIn(function(){
                 $(navY).pushpin({ top: $(navY).offset().top }); 
             });
             
-            $('html,body').animate({scrollTop: $("#coming-soon-head-title").offset().top},'fast');
+            $('html,body').animate({scrollTop: $("#coming-soon-head-title").offset().top}, 400);
             
             return false;
         });

@@ -10,7 +10,11 @@ $(document).ready(function(){
 		var img_files = ['Alinabo', 'Beduya', 'Diana'];
 		var done = false;
 		for(var i in img_files) {
+<<<<<<< HEAD
 			$('.carousel-container').append('<img src="'+ img_url + 'V1_' + img_files[i] + '_Black.jpg' +'"><button class="btn">Show Details</button>');
+=======
+			$('.carousel-container').append('<img src="'+ img_url + 'V1_' + img_files[i] + '_Black.jpg' +'">');
+>>>>>>> master
 		}
 		$('.carousel-container').slick({
 		  dots: true,

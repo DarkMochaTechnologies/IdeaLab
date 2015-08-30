@@ -32,7 +32,6 @@ class ComingSoon extends CI_Controller {
 		$this->data['a_css_sheets'] = array(
 				base_url() . 'assets/css/home/index.css'
 			);
-
 	}
     
 	public function index()

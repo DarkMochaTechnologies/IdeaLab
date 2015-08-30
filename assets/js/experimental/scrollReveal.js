@@ -9,12 +9,12 @@ $(document).ready(function(){
 	{
 		ease_val = 100 * (i + 1);
 		$('.events').append(
-			'<div data-sr="ease-in 100% reset" class="col 12">' +
+			'<div data-sr="ease-in-out 200px reset" class="col 12">' +
 				'<div class="polaroid">' +
 					'<img class="img-scroll responsive-img" src="'+ img_url + 'V1_' + img_files[i] + '_Black.jpg' +'">' +
 				'</div>' +
 			'</div>' +
-			'<div data-sr="ease-in-out 100% reset" class="col 12 description-container">' +
+			'<div data-sr="ease-in 400px reset" class="col 12 description-container">' +
 				'<div class="section">' +
 					'<p class="description">' +
 						'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam turpis leo, elementum id nisi nec, mattis rhoncus felis.' + 

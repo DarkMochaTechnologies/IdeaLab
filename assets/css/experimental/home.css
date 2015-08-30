@@ -4,7 +4,11 @@
     @font-face {
     font-family: 'Boulder';
     src: url('/assets/fonts/boulder.ttf');
+<<<<<<< HEAD
     }
+=======
+}   }
+>>>>>>> master
 
     html {
       height: 100%;
@@ -258,14 +262,21 @@
     .main section.page2 {
       background: #555557 url(back-phone.png) no-repeat center -150px ;
     }
+<<<<<<< HEAD
     
     .main section.page2 > div {
+=======
+    .main section.page2 > img {
+>>>>>>> master
       position: absolute;
       top: -300px;
       left: 50%;
       margin-left: -1095px;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
     .main section.page2 .page_container {
       top: 0;
       max-width: 100%;

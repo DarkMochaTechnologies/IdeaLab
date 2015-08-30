@@ -15,7 +15,10 @@
 	    <section class="page2">
 	      <div class="page_container carousel-container" img-url="<?=base_url()?>assets/img/igniteCebu/">
 	      </div>
+<<<<<<< HEAD
         <div class="container button"></div>
+=======
+>>>>>>> master
       </section>
 	    
 	    <section class="page3">
